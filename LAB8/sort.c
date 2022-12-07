@@ -59,10 +59,10 @@ void sortVst(char** mas, int size)
 			start--;
 		}
 		storer = *(mas + end);
-		for (end; end > start; end--)
+		while( end > start)
 		{
 			*(mas + end) = *(mas + end - 1);
-
+			end--;
 		}
 		*(mas + start) = storer;
 	}
