@@ -54,4 +54,4 @@ int main(int argc, char** argv)
 	free(mas);
 	return 0;
 }
-//source\repos\LAB8\x64\Debug>
+//source\repos\LAB8\x64\Debug>/
